@@ -17,7 +17,7 @@ function App() {
     <div className={darkTheme ? 'dark-theme bg-dark' : 'light-theme bg-white'}>
 
       <div className="App">
-        <Navbar className={darkTheme ? 'navbar-dark bg-dark' : 'navbar-white bg-white'}>
+        <Navbar className={darkTheme ? 'navbar-dark bg-dark container' : 'navbar-white bg-white container'}>
           <Navbar.Brand href="home">
             Cours React
           </Navbar.Brand>
